@@ -9,4 +9,4 @@ python3 manage.py migrate --noinput
 
 echo "Collect statistics..."
 
-python3.10.9 manage.py collectstatic --noinput --clear
+python3 manage.py collectstatic --noinput --clear
